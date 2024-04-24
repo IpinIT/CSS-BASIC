@@ -1,0 +1,41 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    font-family: arial;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    color: red;
+}
+
+li:last-child a{
+    color: green;
+}
+li:first-child a{
+    color: red;
+}
+/* 2n=kelipatan 2 , -2=awalan 3 tp dikurang 2*/
+li:nth-child(3n-2) a{
+    color: blue;
+}
+li:nth-child(odd) a{
+    color: blue;
+}
+/* hover=yg ditunjuk kursor */
+li:nth-child(odd) a :hover{
+    color: red;
+}
+/* 
+first-of-type=memilih elemen pertama dari sebuah jenis/tipe tag
+last-of-type=memilih elemen terakhir dari sebuah jenis/tipe tag
+*/
+p :last-of-type{
+color: blue;
+}
